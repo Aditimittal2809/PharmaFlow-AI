@@ -1,6 +1,6 @@
 # PharmaFlow AI
 
-**Payer-side pharmacy benefit analysis dashboard** — a lll capstone demo for payer/PBM drug-switch opportunity identification.
+**Payer-side pharmacy benefit analysis dashboard** — a capstone demo for payer/PBM drug-switch opportunity identification.
 
 > ⚠️ **Synthetic Data Notice:** All member identifiers and claims are synthetically generated. Drug pricing is sourced from CMS NADAC (April 2026). Drug equivalence data is from the FDA Orange Book. This tool is not clinical decision support and must not be used for real patient care or coverage decisions.
 
