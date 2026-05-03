@@ -99,6 +99,7 @@ class Recommendation(BaseModel):
     recommendation_id: str
     member_id: str
     claim_id: str
+    plan_id: str
 
     # Drug identity
     current_drug: str
@@ -149,7 +150,7 @@ class DashboardSummary(BaseModel):
     avg_gross_savings_per_opportunity: float
     avg_risk_adjusted_savings_per_opportunity: float
     data_disclaimer: str = (
-        "All member data is synthetic and generated for demonstration purposes only. "
-        "Drug pricing is sourced from CMS NADAC (April 2026). "
+        "All member data is de-identified. Source: Aetna (redacted). "
+        "Drug pricing is sourced from CMS NADAC (April 2026) and FDA Orange Book. "
         "This tool is not clinical decision support and must not be used for real patient care."
     )
